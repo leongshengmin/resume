@@ -25,7 +25,7 @@ st.subheader("Career")
 with st.spinner(text="Building timeline"):
     with open("career.json", "r") as f:
         data = f.read()
-        timeline.timeline(data, height=300, start_at_end=True)
+        timeline.timeline(data, height=200, start_at_end=True)
 
 career_tab = table.create_table(info["career"], height=350)
 st.plotly_chart(career_tab)
