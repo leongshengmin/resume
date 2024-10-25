@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "start_date": {
+                "year": "2021",
+                "month": "8"
+            },
+            "media": {
+                "url": "https://cdn.freebiesupply.com/logos/large/2x/grab-logo-png-transparent.png",
+                "credit": "Grab"
+            },
+            "text": {
+                "headline": "Senior Software Engineer (Observability Team)",
+                "text": "PIC for Grab’s logging stack – Manage >1PiB Opensearch clusters and logging pipeline."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2021",
+                "month": "1"
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/1280px-Shopee.svg.png",
+                "credit": "Shopee"
+            },
+            "text": {
+                "headline": "Backend Software Engineer Intern (Payments Team)",
+                "text": "<ul><li>Instrumented service with Prometheus metrics to trace performance bottlenecks.</li><li>Developed pre-deployment validation for stored credentials of partner APIs</li>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "4"
+            },
+            "media": {
+                "url": "https://1000logos.net/wp-content/uploads/2022/08/Ninja-Van-Logo.png",
+                "credit": "Ninja Van"
+            },
+            "text": {
+                "headline": "Full Stack Software Engineer Intern (Drivers Team)",
+                "text": "Designed and built a 2-way cross-platform messaging system for communication during parcel delivery."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2019",
+                "month": "8"
+            },
+            "media": {
+                "url": "https://securitysenses.com/sites/default/files/logos/upguard-logo.png",
+                "credit": "UpGuard"
+            },
+            "text": {
+                "headline": "DevOps / SRE Intern",
+                "text": "<ul><li>Developed release package upload tool for Forward Deploy Engineers to install packages on customers' VMs</li><li>Oversaw Nginx version upgrade and configurations for enabling Modsecurity WAF</li>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2019",
+                "month": "5"
+            },
+            "media": {
+                "url": "https://1000logos.net/wp-content/uploads/2022/08/Ninja-Van-Logo.png",
+                "credit": "Ninja Van"
+            },
+            "text": {
+                "headline": "Backend Software Engineer Intern (Shippers Team)",
+                "text": "Developed a webhook history tool to allow tracking and searching of fired webhooks."
+            }
+        }
+    ]
+}
