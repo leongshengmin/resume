@@ -26,9 +26,9 @@ st.subheader("Career")
 with st.spinner(text="Building timeline"):
     with open("career.json", "r") as f:
         data = f.read()
-        timeline.timeline(data, height=600, start_at_end=True)
+        timeline.timeline(data, height=500, start_at_end=True)
 
-career_tab = table.create_table(info["career"], height=300)
+career_tab = table.create_table(info["career"], height=350)
 st.plotly_chart(career_tab)
 
 ####
@@ -46,7 +46,7 @@ with st.spinner(text="Loading section..."):
 # Education section
 ####
 st.subheader("Education 📖")
-edu_tab = table.create_table(info["edu"], height=250)
+edu_tab = table.create_table(info["edu"], height=150)
 st.plotly_chart(edu_tab)
 
 ####
