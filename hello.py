@@ -28,7 +28,7 @@ with st.spinner(text="Building timeline"):
         data = f.read()
         timeline.timeline(data, height=600, start_at_end=True)
 
-career_tab = table.create_table(info["career"], height=400)
+career_tab = table.create_table(info["career"], height=300)
 st.plotly_chart(career_tab)
 
 ####

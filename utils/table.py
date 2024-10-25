@@ -29,7 +29,7 @@ def create_table(df: pd.DataFrame, height=300) -> Figure:
         ],
     )
     fig.update_layout(
-        width=1000,
+        width=2000,
         height=height,
         margin=dict(l=20, r=20, t=20, b=20),
     )
