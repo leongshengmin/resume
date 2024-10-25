@@ -1,7 +1,6 @@
 import streamlit as st
 from constant import *
 from utils import timeline, table
-import plotly.graph_objects as go
 
 
 st.set_page_config(
