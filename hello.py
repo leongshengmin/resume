@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="Leong Shengmin's Resume", layout="wide", page_icon="👨‍🔬"
 )
 
-st.sidebar.markdown(f"LinkedIn: {info['LinkedIn']}", unsafe_allow_html=True)
+st.sidebar.markdown(f"LinkedIn: {info['LinkedIn']}")
 st.sidebar.markdown(f"Email: {info['Email']}")
 pdfFileObj = open("pdfs/resume.pdf", "rb")
 st.sidebar.download_button(

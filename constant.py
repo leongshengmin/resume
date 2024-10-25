@@ -49,7 +49,7 @@ info = {
     "Brief": "Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about platform engineering / anything interesting.",
     "Mobile": "+6581980550",
     "Email": "leongshengmin@gmail.com",
-    "LinkedIn": '<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="leongshengmin" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://sg.linkedin.com/in/leongshengmin?trk=profile-badge">Leong Shengmin</a></div>',
+    "LinkedIn": '[Leong Shengmin]("https://www.linkedin.com/in/leongshengmin/")',
     "edu": pd.DataFrame(edu, columns=["Qualification", "Year", "Institute"]),
     "career": pd.DataFrame(career, columns=["Year", "Company", "Role", "Description"]),
     "skills_or_tech": [
