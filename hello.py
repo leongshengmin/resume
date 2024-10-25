@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 st.set_page_config(
-    page_title="Leong Shengmin's portfolio", layout="wide", page_icon="👨‍🔬"
+    page_title="Leong Shengmin's Resume", layout="wide", page_icon="👨‍🔬"
 )
 
 st.sidebar.markdown(f"LinkedIn: {info['LinkedIn']}", unsafe_allow_html=True)
