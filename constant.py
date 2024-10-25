@@ -49,7 +49,7 @@ info = {
     "Brief": "Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about platform engineering / anything interesting.",
     "Mobile": "+6581980550",
     "Email": "leongshengmin@gmail.com",
-    "LinkedIn": '[Leong Shengmin]("https://www.linkedin.com/in/leongshengmin/")',
+    "LinkedIn": "https://www.linkedin.com/in/leongshengmin/",
     "edu": pd.DataFrame(edu, columns=["Qualification", "Year", "Institute"]),
     "career": pd.DataFrame(career, columns=["Year", "Company", "Role", "Description"]),
     "skills_or_tech": [
