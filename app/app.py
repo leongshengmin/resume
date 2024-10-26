@@ -1,5 +1,4 @@
 import streamlit as st
-import math
 from app.constant import *
 from app.utils import timeline, table
 
