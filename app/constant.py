@@ -46,7 +46,8 @@ PIC for Grab’s logging stack – Manage >1PiB Opensearch clusters and logging 
 
 info = {
     "name": "Leong Shengmin",
-    "Brief": "Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about platform engineering / anything interesting.",
+    "Brief": """Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about platform engineering / anything interesting.\n
+*Disclaimer: Clearly not a Frontend engineer from the UI* 🙂""",
     "Mobile": "+6581980550",
     "Email": "leongshengmin@gmail.com",
     "LinkedIn": "https://www.linkedin.com/in/leongshengmin/",
@@ -60,7 +61,7 @@ info = {
     "projects": [
         {
             "title": "Opensearch Cold Tier using JuiceFS (FUSE backed storage)",
-            "description": "Conducted trial using JuiceFs (FUSE) as the cold data tier in Grab's 1PiB+ Opensearch logging cluster as part of a cost-reduction initiative for lower cost storage.",
+            "description": "Conducted trial using [JuiceFs (FUSE)](https://juicefs.com/docs/community/introduction/) as the cold data tier in Grab's 1PiB+ Opensearch logging cluster as part of a cost-reduction initiative for lower cost storage.",
         },
         {
             "title": "Benchmarking alternative Storage Engines (e.g. Clickhouse, Quickwit, Loki)",
@@ -105,4 +106,18 @@ info = {
     ],
 }
 
-SKILLS_NUM_COLUMNS = 1
+SKILLS_NUM_ROWS = 3
+DOWNLOAD_BUTTON_BACKGROUND_COLOR = "#6495ED"  # blue
+DOWNLOAD_BUTTON_CSS = f"""
+<style>
+    div.stDownloadButton > button:first-child {{
+        background-color: {DOWNLOAD_BUTTON_BACKGROUND_COLOR}; color: white; border: 5px solid {DOWNLOAD_BUTTON_BACKGROUND_COLOR};
+    }}
+</style>
+"""
+
+TABLE_HEADER_HEIGHT = 30
+TABLE_HEADER_FONT_SIZE = 15
+TABLE_ROW_HEIGHT = 40
+TABLE_ROW_FONT_SIZE = 14
+TABLE_WIDTH = 2000
