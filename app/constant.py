@@ -60,31 +60,35 @@ info = {
     ],
     "projects": [
         {
-            "title": "Opensearch Cold Tier using JuiceFS (FUSE backed storage)",
-            "description": "Conducted trial using [JuiceFs (FUSE)](https://juicefs.com/docs/community/introduction/) as the cold data tier in Grab's 1PiB+ Opensearch logging cluster as part of a cost-reduction initiative for lower cost storage.",
+            "title": "(Grab) Opensearch Cold Tier using JuiceFS (FUSE backed storage)",
+            "description": "Added a cold data tier backed by [JuiceFs (FUSE)](https://juicefs.com/docs/community/introduction/) in our Opensearch logging cluster as part of a cost-reduction initiative. This involved benchmarking the cold data nodes in the AWS playground subaccount, deploying to staging and production, optimizing for performance and cost once deployed.",
         },
         {
-            "title": "Benchmarking alternative Storage Engines (e.g. Clickhouse, Quickwit, Loki)",
-            "description": "Conducted benchmarking alternative storage engines e.g. Clickhouse, Quickwit and Loki as part of a cost-reduction initiative for Grab's logging cluster.",
+            "title": "(Grab) Benchmarking alternative Storage Engines (e.g. Clickhouse, Quickwit, Loki)",
+            "description": "Benchmarking alternative storage engines e.g. Clickhouse, Quickwit and Loki as part of a cost-reduction initiative for the logging cluster. This involved benchmarking and deploying these storage engines in the AWS playground subaccount.",
         },
         {
-            "title": "Rack Aware Kafka Producer (Logstash Plugin)",
+            "title": "(Grab) Created test harness for Opensearch Performance Benchmarking",
+            "description": "Created test harness for running opensearch performance benchmarks in AWS playground subaccount using custom log workloads for testing performance for major Opensearch changes such as version bumps.",
+        },
+        {
+            "title": "(Grab) Rack Aware Kafka Producer (Logstash Plugin)",
             "description": "Developed a Rack Aware Kafka producer Logstash plugin (Java) to reduce cross-AZ costs between Kafka producer and Kafka",
         },
         {
-            "title": "RCA Troubleshooting LLM Bot",
+            "title": "(Grab) RCA Troubleshooting LLM Bot",
             "description": "Developed tool to automate investigation of common troubleshooting flows e.g. panics, Hystrix errors during an outage and present LLM summarized findings in a single Grafana dashboard. Aimed to help reduce context-switching between platforms and surface only relevant signals to prevent information-overload.",
         },
         {
-            "title": "Azure Log Buffering Layer",
+            "title": "(Grab) Azure Log Buffering Layer",
             "description": "Setup Eventhub buffer in Azure for backpressure to improve reliability of log delivery between Azure and AWS.",
         },
         {
-            "title": "Clickhouse Backup",
+            "title": "(Grab) Clickhouse Backup",
             "description": "Created script to periodically backup Clickhouse cluster used for SLA Monitoring into S3.",
         },
         {
-            "title": "Deploying Configuration over AWS Systems Manager (SSM)",
+            "title": "(Grab) Deploying Configuration over AWS Systems Manager (SSM)",
             "description": "Created flow to perform ansible-push over AWS SSM for canary testing / deploying configuration changes fleet-wide.",
         },
         {
