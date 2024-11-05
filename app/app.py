@@ -38,7 +38,7 @@ def setup_page():
     with st.spinner(text="Building timeline"):
         with open("app/career.json", "r") as f:
             data = f.read()
-            timeline.timeline(data, height=400, start_at_end=True)
+            timeline.timeline(data, height=1000, start_at_end=True)
 
     career_tab = table.create_table(info["career"])
     st.plotly_chart(career_tab)

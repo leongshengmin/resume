@@ -44,7 +44,7 @@ def timeline(data, height=800, start_at_end=True):
 
         <div id='timeline-embed' style="width: 95%; height: """
         + str(height)
-        + """px; margin: 1px;"></div>
+        + """px; margin: 1px; font-size:8px;"></div>
 
         <script type="text/javascript">
             var additionalOptions = {
