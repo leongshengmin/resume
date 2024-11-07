@@ -1,4 +1,4 @@
 from app import app
 
-
-app.setup_page()
+if __name__ == "__main__":
+    app.setup_page()
