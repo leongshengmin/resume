@@ -9,7 +9,7 @@ on:
     # This example triggers the workflow every 2hours at 5th min.
     # min idle timeout is 24h.
     # https://crontab.cronhub.io/
-    - cron: '* * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   cron:
