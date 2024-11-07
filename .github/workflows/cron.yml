@@ -1,0 +1,17 @@
+# https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+name: Cron for pinging webpage
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # This example triggers the workflow every 2hours at 5th min.
+    # min idle timeout is 24h.
+    # https://crontab.cronhub.io/
+    - cron: '5 */2 * * *'
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      # hack to prevent site from going idle
+      - name: keep-alive-webpage
+        run: curl https://leongshengmin.streamlit.app/
