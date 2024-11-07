@@ -1,10 +1,7 @@
 graphviz
 matplotlib
-numpy
 pandas
 plotly
-requests
 streamlit
 streamlit_timeline
-streamlit-player
 typing-extensions
