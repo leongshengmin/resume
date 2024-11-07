@@ -1,6 +1,9 @@
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 name: Cron for pinging webpage
 on:
+  push:
+    branches:
+      - main
   schedule:
     # * is a special character in YAML so you have to quote this string
     # This example triggers the workflow every 2hours at 5th min.
