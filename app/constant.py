@@ -46,7 +46,7 @@ PIC for Grab’s logging stack – Manage >1PiB Opensearch clusters and logging 
 
 info = {
     "name": "Leong Shengmin",
-    "Brief": """Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about platform engineering.""",
+    "Brief": """Currently a Senior Software Engineer (Observability) @ Grab with 3+ years of experience looking to learn more about everything.""",
     "Mobile": "+6581980550",
     "Email": "leongshengmin@gmail.com",
     "LinkedIn": "https://www.linkedin.com/in/leongshengmin/",
