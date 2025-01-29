@@ -9,6 +9,7 @@ def setup_page():
     )
 
     st.sidebar.markdown(f"LinkedIn: {info['LinkedIn']}")
+    st.sidebar.markdown(f"Github: {info['Github']}")
     st.sidebar.markdown(f"Email: {info['Email']}")
     pdfFileObj = open("pdfs/resume.pdf", "rb")
     st.sidebar.download_button(

@@ -50,6 +50,7 @@ info = {
     "Mobile": "+6581980550",
     "Email": "leongshengmin@gmail.com",
     "LinkedIn": "https://www.linkedin.com/in/leongshengmin/",
+    "Github": "https://github.com/leongshengmin",
     "edu": pd.DataFrame(edu, columns=["Qualification", "Year", "Institute"]),
     "career": pd.DataFrame(career, columns=["Year", "Company", "Role", "Description"]),
     "skills_or_tech": [
