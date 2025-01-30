@@ -54,11 +54,15 @@ info = {
     "edu": pd.DataFrame(edu, columns=["Qualification", "Year", "Institute"]),
     "career": pd.DataFrame(career, columns=["Year", "Company", "Role", "Description"]),
     "skills_or_tech": [
-        "Languages: Python / Java / Bash (scripting)",
-        "Technologies: Elasticsearch / Kafka / Helm / K8S",
+        "Languages: Python / Golang / Java",
+        "Technologies: ELK / K8S / (IaC) Ansible, Terraform",
         "Misc: Experience with AWS > Azure > GCP",
     ],
     "projects": [
+        {
+            "title": "1brc with not very good performance",
+            "description": "Attempted the [1brc challenge in go](https://github.com/leongshengmin/leetcode/tree/main/onebrc) with 5.2x improvement from 201.71s -> 38.47s (still nowhere near the optimal but still was fun 🙂).",
+        },
         {
             "title": "(Grab) Opensearch Cold Tier using JuiceFS (FUSE backed storage)",
             "description": "Added a cold data tier backed by [JuiceFs (FUSE)](https://juicefs.com/docs/community/introduction/) in our Opensearch logging cluster as part of a cost-reduction initiative. This involved benchmarking the cold data nodes in the AWS playground subaccount, deploying to staging and production, optimizing for performance and cost once deployed.",
